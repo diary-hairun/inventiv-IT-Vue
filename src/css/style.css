@@ -1,0 +1,68 @@
+html,
+body {
+  font-size: 16px;
+  background: #edf0f2
+}
+
+.btn.btn-primary {
+  min-width: 100px;
+  padding: 0.75em 1.25em;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #3097d1;
+}
+
+.card {
+  margin-bottom: 2rem;
+  border: 0;
+  box-shadow: 0 2px 3px rgba(55, 63, 67, 0.16);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+  border-bottom: 0;
+}
+
+.card-body {
+  background-color: #f6f8f9;
+}
+
+/*######    FORMS   ######*/
+.form-group.row {
+  align-items: center;
+}
+
+.form-group.row>label {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.form-control {
+  border: 1px solid #b0b9bf;
+  box-shadow: 0 1px 2px #dde1e3;
+}
+
+.form-check-label {
+  color: #5c6870;
+  font-size: 0.9375rem;
+}
+
+form .btn.btn-primary {
+  min-width: initial;
+  padding: 6px 12px;
+  text-transform: capitalize;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  background-color: #42a2dc;
+  border: 0;
+}
+
+form .btn.btn-link,
+.form-check-label a {
+  font-size: 0.9375rem;
+  color: #42a2dc;
+}
