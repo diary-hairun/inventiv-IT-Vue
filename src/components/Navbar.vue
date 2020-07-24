@@ -24,7 +24,7 @@
             <li class="nav-item dropdown">
               <button
                 type="button"
-                class="btn dropdown-toggle"
+                class="btn btn-default dropdown-toggle"
                 id="navbar-menu"
                 data-toggle="dropdown"
                 @click="handleDropdown"
